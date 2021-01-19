@@ -1,0 +1,38 @@
+Gurbir Arora 
+gurbthebruin@g.ucla.edu
+105178554
+
+1. Then, download the RSat SAT solver from (http://reasoning.cs.ucla.edu/rsat/).
+Read the manual/README carefully. Use RSat to solve the SAT instance
+obtained above. Is the instance satisfiable?
+
+RSat returns that graph1.txt is unsatifiable with only 3 colors, but when I ran it with 4 colors, it turns out to be satisfiable. 
+
+
+2. Do the conversion again, this time, with 4 colors. Use RSat to solve this new SAT
+instance. Is the instance satisfiable?
+
+With the 4 color conversion, RSat claims that this new SAT insance is satisfiable. 
+
+3. What do the answers of these two SAT instances tell you about the graph
+coloring problem of the above graph? Can you give a solution (a coloring) to
+the graph coloring problem of the above graph based on the results of RSat?
+
+This means that the highest degree node is 4, which is why there must be atleast 4 colors in order to solve this problem. 
+
+A potential solution would be: 
+
+1: Orange
+2: White
+3: Orange 
+4: Green
+5: Blue
+6: White 
+7: Green
+
+
+4. Now, use a similar approach to solve the graph coloring of the graph described in
+graph2.txt. What is the minimum number of colors required to properly color
+this graph?
+
+For graph2.txt, the graph is unsatifiable with 1, 2, 3, 4, 5, 6, or 7 colors, but is satisfiable with atleast 8 distinct colors. 
